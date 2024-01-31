@@ -9,6 +9,8 @@ import FavouriteColorStateExample from './components/FavoriteColorStateExample';
 import ClassStateExample from './components/ClassStateExample';
 import FunctionMultipleHooks from './components/FunctionMulipleHooks';
 import UpdateArrayList from './components/UpdateArrayList';
+import Timer from './components/Timer';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,7 +20,8 @@ root.render(
     {/* <FavouriteColorStateExample/> */}
     {/* <ClassStateExample/> */}
 {/* <FunctionMultipleHooks/> */}
-<UpdateArrayList/>
+{/* <UpdateArrayList/> */}
+       <Timer/>
   </React.StrictMode>
 );
 
