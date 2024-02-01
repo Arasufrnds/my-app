@@ -10,19 +10,21 @@ import ClassStateExample from './components/ClassStateExample';
 import FunctionMultipleHooks from './components/FunctionMulipleHooks';
 import UpdateArrayList from './components/UpdateArrayList';
 import Timer from './components/Timer';
+import MyForm from './components/MyForm';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <>
     {/* <Garage/> */}
     {/* <Header/> */}
     {/* <FavouriteColorStateExample/> */}
     {/* <ClassStateExample/> */}
 {/* <FunctionMultipleHooks/> */}
 {/* <UpdateArrayList/> */}
-       <Timer/>
-  </React.StrictMode>
+       {/* <Timer/> */}
+       <MyForm/>
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
