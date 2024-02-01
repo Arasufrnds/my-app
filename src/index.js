@@ -16,6 +16,7 @@ import MyForm from './components/MyForm';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
+  <App/>
     {/* <Garage/> */}
     {/* <Header/> */}
     {/* <FavouriteColorStateExample/> */}
@@ -23,7 +24,7 @@ root.render(
 {/* <FunctionMultipleHooks/> */}
 {/* <UpdateArrayList/> */}
        {/* <Timer/> */}
-       <MyForm/>
+       {/* <MyForm/> */}
   </>
 );
 
